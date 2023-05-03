@@ -1,0 +1,12 @@
+com\renzf\BlogAdminApplication.class
+com\renzf\config\SecurityConfig.class
+com\renzf\controller\SystemLoginController.class
+com\renzf\controller\AdminUploadController.class
+com\renzf\controller\LinkController.class
+com\renzf\filter\JwtAuthenticationTokenFilter.class
+com\renzf\controller\TagController.class
+com\renzf\controller\RoleController.class
+com\renzf\controller\MenuController.class
+com\renzf\controller\ArticleController.class
+com\renzf\controller\AdminCategoryController.class
+com\renzf\controller\UserController.class

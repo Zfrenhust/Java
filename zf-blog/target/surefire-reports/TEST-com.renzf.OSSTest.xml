@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="com.renzf.OSSTest" time="1.452" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\JAVAJDK\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\ZFBlog"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\ZFBlog"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\JAVAJDK\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\81481\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\JAVAJDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\VM16pro\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\Nodejs\;E:\Nodejs\\node_cache;E:\Nodejs\\node_global;E:\Anaconda\Scripts;E:\Git\usr\bin;E:\Git\bin;E:\wx_exploit\微信web开发者工具\dll;D:\go\bin;D:\Xshell\;D:\;D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;E:\Anaconda\envs\pytorchgpu\python.exe;E:\nvm;E:\Program Files\nodejs;E:\nodejs16\node-v16.20.0-win-x64;C:\Users\81481\AppData\Local\Microsoft\WindowsApps;C:\Users\81481\AppData\Roaming\npm;C:\Users\81481\AppData\Local\Programs\Microsoft VS Code\bin;D:\JAVAJDK\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;D:\mysql\mysql-5.7.19-winx64\bin;C:\Users\81481\go\bin;E:\nvm;E:\Program Files\nodejs;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\81481"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="81481"/>
+    <property name="java.class.path" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\JAVAJDK\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.1.3 -s D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml -Dmaven.repo.local=D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\repository package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="D:\JAVAJDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\JAVAJDK\jre\lib\resources.jar;D:\JAVAJDK\jre\lib\rt.jar;D:\JAVAJDK\jre\lib\sunrsasign.jar;D:\JAVAJDK\jre\lib\jsse.jar;D:\JAVAJDK\jre\lib\jce.jar;D:\JAVAJDK\jre\lib\charsets.jar;D:\JAVAJDK\jre\lib\jfr.jar;D:\JAVAJDK\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.renzf.OSSTest" name="com.renzf.OSSTest.testOss" time="1.452"/>
+</testsuite>
